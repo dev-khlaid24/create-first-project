@@ -34,6 +34,14 @@ h2{
     margin: 30px 0;
     font-size: 35px;
 }
+h3{
+    font-size: 35px;
+    padding-bottom: 15px;
+}
+h5{
+    font-size: 20px;
+    color: #941b0b;
+}
 
 p{
     margin: 20px 0;
@@ -55,4 +63,32 @@ p{
     background-repeat: no-repeat;
     background-position: right;
 
+}
+#ecperiences{
+    padding: 70px 0;
+    background: url(../images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position-y: 70%;
+
+}
+.full-stack-dev, .web-dev{
+    width: 45%;
+}
+.full-stack-dev{
+    box-shadow: 10px 10px 40px rgb(46, 44, 44);
+    padding: 15px;
+    border-radius: 10px;
+    border-image: linear-gradient(orange, tomato);
+    border-image-slice: 1;
+    border-left: 7px solid;
+
+}
+.web-dev{
+    margin-left: 10%;
+    box-shadow: 10px 10px 40px rgb(46, 44, 44);
+    padding: 15px;
+    border-radius: 10px;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+    border-left: 7px solid;
 }
