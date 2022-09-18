@@ -92,3 +92,8 @@ p{
     border-image-slice: 1;
     border-left: 7px solid;
 }
+
+.footer-item {
+    text-align: center;
+
+}
